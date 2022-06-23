@@ -257,7 +257,6 @@ export default new Vuex.Store({
           console.log("error message: ", error.message);
         });
     },
-    //User Login Action
   
     //User Login Action
     async loginUser({ dispatch, commit }, credentials) {

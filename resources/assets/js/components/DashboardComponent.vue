@@ -128,7 +128,8 @@
 
             checkProjectStatus(item){
 
-                return (item.task_status == "NEW") ? "New" :  (item.task_status == "OPENED") ? "Open" : (item.task_status == "INPROGRESS") ? "In Progress" : (item.task_status == "COMPLETED") ? "Completed" : ""
+                return (item.task_status == "NEW") ? "New" :  (item.task_status == "OPENED") ? "Open" : 
+                (item.task_status == "INPROGRESS") ? "In Progress" : (item.task_status == "COMPLETED") ? "Completed" : ""
 
             },
             

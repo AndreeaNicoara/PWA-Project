@@ -11,28 +11,6 @@
               
             };
         },
-
-        created() {
-
-            // if(localStorage.token) {
-            //      axios.defaults.headers.common["Authorization"] = `Bearer ${localStorage.getItem('token')}`;
-
-            //     axios.get('/api/user').then(response => {
-            //         store.commit('loginUser')
-            //         this.isLoggedIn = true;
-            //     }).catch(error => {
-            //         if (error.response.status === 401 || error.response.status === 403) {
-            //             this.isLoggedIn = false;
-            //             axios.defaults.headers.common["Authorization"] = null;
-            //             store.commit('logoutUser')
-            //             localStorage.setItem('token', '')
-            //             this.$router.push({name: 'login'})
-            //         }
-
-            //     });
-            // }
-
-        }
     }
 </script>
 

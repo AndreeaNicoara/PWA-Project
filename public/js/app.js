@@ -1433,7 +1433,6 @@ __WEBPACK_IMPORTED_MODULE_1_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vuex
                   commit("SET_IS_SUCCESS", false);
                   commit("SET_IS_ERROR_MESSAGE", 'Please check your username and password.');
 
-                  // console.log('error messsage: ', error.message)
                 });
 
               case 2:

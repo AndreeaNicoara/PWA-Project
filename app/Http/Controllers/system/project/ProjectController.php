@@ -28,8 +28,6 @@ class ProjectController extends Controller
         
         $user_id = auth()->user()->id;
 
-        // $user_projects = $ProjectsModel->get_all_user_projects($user_id);//Get all leader projects
-
         $user_projects = ProjectsModel::with([
             'user',
             'tasks'
